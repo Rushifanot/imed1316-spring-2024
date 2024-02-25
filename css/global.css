@@ -1,0 +1,19 @@
+/*color*/
+/* 
+60% #020F59 - Dominant 
+30% #F64BFA - Secondary
+10% #FD4444 - Accent
+*/
+
+:root {
+
+    /* var(--dominantColor) !important; */
+    --dominantColor: #020f59;
+
+    /* var(--secondaryColor) !important; */
+    --secondaryColor: #F64BFA;
+
+    /* var(--accentColor) !important; */
+    --accentColor: #FD4444;
+
+}
