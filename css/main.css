@@ -49,3 +49,7 @@ h2 {
     text-decoration: underline;
     text-decoration-thickness: 3px;
 }
+
+.footer-row {
+    background-color: var(--dominantColor) !important;
+}
