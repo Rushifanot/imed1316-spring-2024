@@ -52,4 +52,6 @@ h2 {
 
 .footer-row {
     background-color: var(--dominantColor) !important;
+    padding-top: 35px;
+    padding-bottom: 35px;
 }
