@@ -64,6 +64,11 @@ h2 {
     text-transform: uppercase;
 }
 
+.fa-social-media,
+.fa-social-media a {
+    font-size: 25px;
+}
+
 /* ADD THE CLASS .custom-toggler TO THE HAMBURGUER MENU*/
 /*under main.css added*/
 
