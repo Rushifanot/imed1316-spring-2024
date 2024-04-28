@@ -34,3 +34,8 @@
     width: 20px !important;
     height: 20px !important;
 }
+
+#about-you {
+    width: 70%;
+    height: 200px;
+}
