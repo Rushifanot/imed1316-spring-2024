@@ -36,8 +36,8 @@
 }
 
 #terms-and-conditions {
-    width: 30px;
-    height: 10px;
+    width: 30px !important;
+    height: 10px !important;
 }
 
 #about-you {
