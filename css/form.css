@@ -15,3 +15,16 @@
 .web-form div {
     margin-top: 10px;
 }
+
+#age {
+    width: 100px;
+}
+
+#date {
+    width: 150px;
+}
+
+#custom {
+    margin-top: 5px;
+    display: none;
+}
