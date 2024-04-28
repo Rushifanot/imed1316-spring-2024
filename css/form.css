@@ -35,6 +35,11 @@
     height: 20px !important;
 }
 
+#terms-and-conditions {
+    width: 30px;
+    height: 10px;
+}
+
 #about-you {
     width: 70%;
     height: 200px;
