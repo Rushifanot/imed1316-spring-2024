@@ -39,3 +39,14 @@
     width: 70%;
     height: 200px;
 }
+
+.submit {
+    border-color: var(--secondaryColor) !important;
+    background-color: var(--secondaryColor) !important;
+    color: #ffffff;
+}
+
+.submit:hover {
+    background-color: #ffffff;
+    color: var(--secondaryColor) !important;
+}
