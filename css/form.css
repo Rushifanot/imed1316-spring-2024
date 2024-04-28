@@ -28,3 +28,9 @@
     margin-top: 5px;
     display: none;
 }
+
+.radio,
+.checkbox {
+    width: 20px !important;
+    height: 20px !important;
+}
