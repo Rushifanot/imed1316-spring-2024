@@ -133,43 +133,43 @@
                     <!-- Full Name - Text Field-->
                     <div class="col-12 col-xxs-12 col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
                         <label for="full-name">Full Name</label>
-                        <input type="text" name="fullName" id="full-name" required />
+                        <input type="text" name="fullName" id="full-name" required class="form-control" />
                     </div>
 
                     <!-- Age - Number Field -->
                     <div class="col-12 col-xxs-12 col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
                         <label for="">Ages</label>
-                        <input type="number" name="age" id="age" min="18" max="100" required />
+                        <input type="number" name="age" id="age" min="18" max="100" required class="form-control" />
                     </div>
 
                     <!-- Email - Email Field -->
                     <div class="col-12 col-xxs-12 col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
                         <label for="email">Email</label>
-                        <input type="email" id="email" name="email" required />
+                        <input type="email" id="email" name="email" required class="form-control" />
                     </div>
 
                     <!-- Phone - Tel Field -->
                     <div class="col-12 col-xxs-12 col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
                         <label for="phone">Phone</label>
-                        <input type="tel" name="phone" id="phone" />
+                        <input type="tel" name="phone" id="phone" class="form-control" />
                     </div>
 
                     <!-- Social Media - URL Field -->
                     <div class="col-12 col-xxs-12 col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
-                        <label for="url">Social Media</label>
-                        <input type="url" name="url" id="social media" />
+                        <label for="url">Social Media (optional)</label>
+                        <input type="url" name="url" id="social media" class="form-control" />
                     </div>
 
                     <!-- Start Date - Date Field -->
                     <div class="col-12 col-xxs-12 col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
                         <label for="start-date">Start Date</label>
-                        <input type="date" name="startDate" id="start-date" required />
+                        <input type="date" name="startDate" id="start-date" required class="form-control" />
                     </div>
 
                     <!-- TSize - Select (dropdown) Field -->
                     <div class="col-12 col-xxs-12 col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
                         <label for="">T-Shirt Size</label>
-                        <select name="tShirt" id="t-shirt">
+                        <select name="tShirt" id="t-shirt" required class="form-select">
                             <option value="">SELECT T-SHIRT SIZE</option>
                             <option value="XXS">XXS</option>
                             <option value="XS">XS</option>
@@ -180,27 +180,29 @@
                             <option value="XXL">XXL</option>
                             <option value="CUSTOM">CUSTOM</option>
                         </select>
-                        <input type="text" name="custom" placeholder="Please input a custom size" id="custom"
-                            disabled />
+                        <input type="text" name="custom" placeholder="Please input a custom size" id="custom" disabled
+                            class="form-control" />
                     </div>
 
                     <!-- TColor - Color Field -->
                     <div class="col-12 col-xxs-12 col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
                         <label for="color">T-shirt Color</label>
-                        <input type="color" id="color" name="color" />
+                        <input type="color" id="color" name="color" class="form-control" />
                     </div>
 
                     <!-- Background Check - File (upload) Field -->
                     <div class="col-12 col-xxs-12 col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
                         <label for="background-check">Background Check</label>
-                        <input type="file" name="file" id="background-check" required accept=".docx" />
+                        <input type="file" name="file" id="background-check" required accept=".docx"
+                            class="form-control" />
                     </div>
 
                     <!-- Participating In - Radio Field -->
                     <div class="col-12 col-xxs-12 col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
                         <strong>Participating In</strong><br />
 
-                        <input type="radio" name="participation" id="fashion-show" required value="Fashion Show" />
+                        <input type="radio" name="participation" id="fashion-show" required value="Fashion Show"
+                            class="form-check-input radio" />
                         <label for="fashion-show">Fashion Show</label>
 
                         <input type="radio" name="participation" id="donation" required value="Donation" />
@@ -214,31 +216,35 @@
                     <div class="col-12 col-xxs-12 col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
                         <strong>Time of Day</strong>
 
-                        <input type="checkbox" name="timeOfDay" id="time-of-day-morning" required value="Morning" />
+                        <input type="checkbox" name="timeOfDay" id="time-of-day-morning" required value="Morning"
+                            class="form-check-input checkbox" />
                         <label for="time-of-day-morning">Morning</label>
 
-                        <input type="checkbox" name="timeOfDay" id="time-of-day-afternoon" required value="Afternoon" />
+                        <input type="checkbox" name="timeOfDay" id="time-of-day-afternoon" required value="Afternoon"
+                            class="form-check-input checkbox" />
                         <label for="time-of-day-afternoon">Afternoon</label>
 
-                        <input type="checkbox" name="timeOfDay" id="time-of-day-evening" required value="Evening" />
+                        <input type="checkbox" name="timeOfDay" id="time-of-day-evening" required value="Evening"
+                            class="form-check-input checkbox" />
                         <label for="time-of-day-evening">Evening</label>
                     </div>
 
                     <!-- Comment - Texture Field -->
                     <div class="col-12">
                         <label for="about-you">Tell us about you</label><br />
-                        <textarea name="aboutYou" id="about-you"></textarea>
+                        <textarea name="aboutYou" id="about-you" class="form-control"></textarea>
                     </div>
 
                     <!-- Terms and Conditions - Checkbox (switch) Field -->
-                    <div class="col-12">
-                        <input type="checkbox" name="terms" id="terms-and-conditions" value="Yes" />
+                    <div class="col-12 form-check form-switch">
+                        <input type="checkbox" name="terms" id="terms-and-conditions" value="Yes"
+                            class="form-check-input checkbox" />
                         <label for="terms-and-conditions">I Accept the Terms and Conditions</label>
                     </div>
 
                     <!-- Submit - Submit Field -->
                     <div class="col-12">
-                        <input type="submit" name="submit" value="Volunteer Now" />
+                        <input type="submit" name="submit" value="Volunteer Now" class="form-control" />
                     </div>
 
                 </div>
