@@ -7,7 +7,7 @@
 }
 
 .fa-row {
-    background-color: var(--secondaryColor) !important;
+    background-color: var(--dominantColor) !important;
     padding: 20px;
 }
 
