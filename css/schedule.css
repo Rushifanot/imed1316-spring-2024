@@ -32,7 +32,7 @@
 }
 
 .content-table thead tr th {
-    background-color: var(--dominantColor) !important;
+    background-color: var(--secondaryColor) !important;
     color: #ffffff;
 }
 
@@ -54,5 +54,5 @@
 }
 
 .content-table tbody tr:last-of-type {
-    background-color: var(--dominantColor) !important;
+    background-color: var(--secondaryColor) !important;
 }
