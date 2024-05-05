@@ -35,7 +35,7 @@
     color: var(--dominantColor) !important;
     font-weight: bold;
     font-family: "Kode Mono", monospace;
-    font-size: 24px;
+    font-size: 16px;
     padding: 20px;
     height: auto;
     margin: auto;
@@ -55,7 +55,7 @@
     color: var(--dominantColor) !important;
     font-weight: bold;
     font-family: "Kode Mono", monospace;
-    font-size: 24px;
+    font-size: 16px;
     padding: 20px;
     height: auto;
     margin: auto;
